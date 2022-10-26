@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     =  "Todays-instance"
+  default     =  "terraform-setup"
 }
 
 
@@ -17,7 +17,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "launch-wizard-1"
+  default     = "jenkins-sg"
 }
 
 
